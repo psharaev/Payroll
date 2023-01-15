@@ -2,12 +2,11 @@ package payroll.entity;
 
 import payroll.Status;
 
-import java.util.Objects;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.util.Objects;
 
 /**
  * @author Pavel Sharaev (mail@pechhenka.ru)
@@ -22,7 +21,8 @@ public class Order {
     private String description;
     private Status status;
 
-    public Order() {}
+    public Order() {
+    }
 
     public Order(String description, Status status) {
 

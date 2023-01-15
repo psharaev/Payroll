@@ -1,10 +1,9 @@
 package payroll.entity;
 
-import java.util.Objects;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.util.Objects;
 
 /**
  * @author Pavel Sharaev (mail@pechhenka.ru)
