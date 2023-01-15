@@ -1,4 +1,4 @@
-package payroll;
+package payroll.entity;
 
 /**
  * @author Pavel Sharaev (mail@pechhenka.ru)

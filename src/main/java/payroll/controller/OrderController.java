@@ -8,7 +8,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import payroll.Status;
+import payroll.entity.Status;
 import payroll.assembler.OrderModelAssembler;
 import payroll.entity.Order;
 import payroll.exception.OrderNotFoundException;

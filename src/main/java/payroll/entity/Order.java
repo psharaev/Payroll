@@ -1,7 +1,5 @@
 package payroll.entity;
 
-import payroll.Status;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
