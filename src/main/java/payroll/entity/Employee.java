@@ -1,4 +1,4 @@
-package payroll;
+package payroll.entity;
 
 import java.util.Objects;
 
@@ -10,7 +10,7 @@ import javax.persistence.Id;
  * @author Pavel Sharaev (mail@pechhenka.ru)
  */
 @Entity
-class Employee {
+public class Employee {
     @Id
     @GeneratedValue
     private Long id;
@@ -22,7 +22,7 @@ class Employee {
     public Employee() {
     }
 
-    Employee(String firstName, String lastName, String role) {
+    public Employee(String firstName, String lastName, String role) {
 
         this.firstName = firstName;
         this.lastName = lastName;

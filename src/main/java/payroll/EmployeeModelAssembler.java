@@ -5,12 +5,14 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;
 import org.springframework.stereotype.Component;
+import payroll.controller.EmployeeController;
+import payroll.entity.Employee;
 
 /**
  * @author Pavel Sharaev (mail@pechhenka.ru)
  */
 @Component
-class EmployeeModelAssembler implements RepresentationModelAssembler<Employee, EntityModel<Employee>> {
+public class EmployeeModelAssembler implements RepresentationModelAssembler<Employee, EntityModel<Employee>> {
 
     @Override
     public EntityModel<Employee> toModel(Employee employee) {

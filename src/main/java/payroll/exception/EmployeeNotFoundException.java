@@ -1,4 +1,4 @@
-package payroll;
+package payroll.exception;
 
 /**
  * @author Pavel Sharaev (mail@pechhenka.ru)

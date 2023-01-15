@@ -1,6 +1,7 @@
-package payroll;
+package payroll.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import payroll.entity.Order;
 
 /**
  * @author Pavel Sharaev (mail@pechhenka.ru)
